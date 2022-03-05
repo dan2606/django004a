@@ -1,8 +1,9 @@
 <html>
+{% load static %}
 
   <head>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <script src="{% static 'script.js' %}"></script>
   </head>
 
   <body>
@@ -30,7 +31,7 @@
       <img id="inside-pic" src="https://lemonthy.ca/pic/h101/girl.png">
       
       <p id="message">
-        Your message here!
+        Hope you have a great and fun day!
       </p>
 
       <p>
